@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+	width: 600px;
+	margin: 2px auto ;
+	border: 1px solid #ddd;
+	background: #F8F9FB;
+	border-radius: 8px;
+	padding: 0;
+}
+header a img{
+	padding: 25px 18px;
+}
+header .hero-img{
+    width: 100%;
+}
+.hero-recipe{
+	padding: 30px 20px;
+}
+.hero-description{
+	border-bottom: 3px solid #FF700C;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.hero-description h1{
+	color: #4A4A4A;
+	font-size: 40px;
+	line-height: 45px;
+	font-weight: 700!important;
+	text-transform: capitalize;
+}
+.hero-description p{
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+a.view-recipe{
+	text-decoration: none;
+	padding: 8px 12px;
+	border-radius: 8px;
+	text-transform: capitalize;
+	font-weight: bold;
+	background: #FF700C;
+	color: #fff;
+	margin-bottom: 30px;
+	font-size: 18px;
+	display: inline-block;
+}
+.more-recipe{
+   padding: 30px 20px;
+   text-align: center;
+}
+.more-recipe h2{
+	font-size: 30px;
+	line-height: 35px;
+	color: #4A4A4A;
+	margin-bottom: 30px;
+	font-weight: 600!important;
+}
+.more-recipe img{
+	width: 100%;
+    margin: 20px 0; 
+}
+.more-recipe h3{
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 600!important;
+}
+.social-icon{
+	background: #FF9D57;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.social-icon p{
+	font-size: 20px;
+	font-weight: 600!important;
+}
+.social-icon ul{
+	margin: 0;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+.social-icon ul li a{
+	text-decoration: none;
+	color: #FF9D57;
+	background: #fff;
+	padding: 5px;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	border-radius: 50%;
+	line-height: 30px;
+	font-size: 20px;
+}
+.footer-footer{
+	padding: 30px 20px;
+	text-align: center;
+}
+.footer-footer a{
+	text-decoration: none;
+	font-size: 16px;
+	margin: 0 10px;
+	color: gray;
+}
